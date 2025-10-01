@@ -1,8 +1,8 @@
 import requests
 import logging
-from .fetch_data import fetch_ohlcv
-from .indicator import calculate_signals
-from .get_top_coins import get_top_100_excluding_stables
+from fetch_data import fetch_ohlcv
+from indicator import calculate_signals
+from get_top_coins import get_top_100_excluding_stables
 from config import NTFY_TOPIC
 
 logger = logging.getLogger(__name__)
